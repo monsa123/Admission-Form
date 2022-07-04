@@ -1,0 +1,86 @@
+body{
+  background-color: #fdc501;
+}
+.containt .img-containt img{
+  height: 200px;
+}
+.containt .student-img img{
+  height: 180px;
+}
+.header{
+  text-align: center;
+}
+.header h1{
+  color: #1e2ce7;
+  font-size: 45px;
+  font-family: 'Josefin Slab',serif;
+}
+.header h5{
+  font-size: 20px;
+  font-family: sans-serif;
+  color: #000;
+}
+.header h6{
+  font-size: 16px;
+  font-family: monospace;
+}
+.header h2{
+  background-color: #e70608;
+  margin-left: 370px;
+  margin-right: 370px;
+  border-radius: 20px;
+  padding: 5px;
+  font-family: sans-serif;
+}
+.header p{
+  font-size: 17px;
+  font-family: sans-serif;
+}
+/* middel-section */
+.containt{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+.containt .img-containt img{
+  margin-left: 220px;
+  border-radius: 100px;
+  border: solid 4px #be1394;
+}
+.containt .student-img img{
+  margin-right: 220px;
+  border: solid 4px #000;
+  height: 160px;
+  margin-top: 20px;
+}
+.containt .text-containt h4{
+  font-size: 18px;
+  font-family: sans-serif;
+}
+.containt .text-containt ul{
+  list-style: none;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.underline{
+  border-style: none;
+  border-top: dashed;
+  width: 80%;
+  border-color: #e50202;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/* form */
+.end-containt{
+  text-align: center;
+  margin: 50px;
+}
+/* footer */
+.footer p{
+  text-align: center;
+  background-color: #ff0000;
+  padding: 20px;
+  margin: 0px;
+}
